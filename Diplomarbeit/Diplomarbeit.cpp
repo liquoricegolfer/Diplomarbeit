@@ -165,7 +165,7 @@ int main() {
         int stop = 0;
         faktor = 0;
 
-        printf("%c", random_blocks[u]);
+       /* printf("%c", random_blocks[u]);*/
         switch (random_blocks[u])
 
 
