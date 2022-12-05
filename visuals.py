@@ -224,7 +224,7 @@ found=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 def score_p():
     for i in range(11):
         if i % 2 != 0:
-            for o in reversed(range(22))
+            for o in reversed(range(22)):
                 if score[o] == 0:
                     leds[o] = (0, 0, 0)
                 else:
@@ -239,7 +239,7 @@ def score_p():
 def hscore_p():
     for i in range(11):
         if i % 2 != 0:
-            for o in reversed(range(22))
+            for o in reversed(range(22)):
                 if hscore[o] == 0:
                     leds[o] = (0, 0, 0)
                 else:
@@ -256,7 +256,7 @@ def hscore_p():
 def X_p():
     for i in range(11):
         if i % 2 != 0:
-            for o in reversed(range(22))
+            for o in reversed(range(22)):
                 if X[o] == 0:
                     leds[o] = (0, 0, 0)
                 else:
@@ -271,7 +271,7 @@ def X_p():
 def found_p():
     for i in range(11):
         if i % 2 != 0:
-            for o in reversed(range(22))
+            for o in reversed(range(22)):
                 if found[o] == 0:
                     leds[o] = (0, 0, 0)
                 else:
@@ -310,7 +310,7 @@ def num_con(score):
 
     for i in range(11):
         if i % 2 != 0:
-            for o in reversed(range(22))
+            for o in reversed(range(22)):
                 if output[o] == 0:
                     leds[o] = (0, 0, 0)
                 else:
@@ -360,7 +360,7 @@ def time_p():
 
     for i in range(11):
         if i % 2 != 0:
-            for o in reversed(range(22))
+            for o in reversed(range(22)):
                 if output[o] == 0:
                     leds[o] = (0, 0, 0)
                 else:
