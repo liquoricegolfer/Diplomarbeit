@@ -34,7 +34,7 @@ def game_selection(index,game_list):
         os.system('cls' if os.name == 'nt' else 'clear')
         for i in range(11):
             if i % 2 != 0:
-                for o in reversed(range(22))
+                for o in reversed(range(22)):
                     if game_list[o] == 0:
                         leds[o] = (0, 0, 0)
                     else:
