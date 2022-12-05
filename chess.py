@@ -44,7 +44,7 @@ def printfield(b):
        ]
     for i in range(11):
         if i%2!=0:
-            for o in reversed(range(22))
+            for o in reversed(range(22)):
                 if x[o] == 0:
                     leds[o] = (0, 0, 0)
                 else:
